@@ -1,13 +1,13 @@
 
-# Teste Quero ser Btime!
+# Resolução de Puzzle "Cheque por Extenso"
 
 ## O que foi feito
 
 Criei um app usando Angular 6, no qual é colocado um valor numérico em reais, e o app retorna o mesmo valor por extenso, ou seja, em palavras dentro de um cheque que aparece na tela.
 
-Como indicado nas instruções do teste da Btime, eu escolhí um teste do DojoPuzzle, que neste caso chama [Cheque por Extenso](http://dojopuzzles.com/problemas/exibe/cheque-por-extenso/#) que pode ser acessado nesta url: `http://dojopuzzles.com/problemas/exibe/cheque-por-extenso/#`
+Eu escolhí um teste do DojoPuzzle, que chama [Cheque por Extenso](http://dojopuzzles.com/problemas/exibe/cheque-por-extenso/#) que pode ser acessado nesta url: `http://dojopuzzles.com/problemas/exibe/cheque-por-extenso/#`
 
-## Requerimentos o App
+## Requerimentos do App
 
 O app foi feito em Angular , então os requerimentos técnicos são os de qualquer projeto em Angular 6 (Node, NPM)
 
