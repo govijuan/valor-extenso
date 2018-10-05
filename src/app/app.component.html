@@ -1,0 +1,34 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container text-center">
+  <h1>
+     {{ title }}
+  </h1>
+</div>
+<div class="explicacao-func">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">Esta App está recebendo um valor numérico e está gerando o valor por extenso em palavras no cheque.
+        Digite o valor do cheque no campo correspondente, e o App irá gerar o texto correspondente enquanto você digita. 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cheque-section">
+  <div class="container">
+    <div class="cheque-wrap">
+      <div class="cheque-image-wrap"><img src="assets/images/fundo-cheque.jpg" alt="imagem de fundo do cheque"></div>
+      <div class="row input-row">
+        <div class="col-md-4 offset-md-8">
+          <div class="form-group">
+            <input class="form-control" #valorNumerico="ngModel" currencyMask  [(ngModel)]="value" (keyup)="definirValorExtenso(valorNumerico.value)" [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',', allowNegative: false }" min="0.01" max="999000000" />
+          </div>
+        </div>
+      </div>
+      <div class="row output-row">
+        <div class="col-md-12">
+          {{valueString}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
